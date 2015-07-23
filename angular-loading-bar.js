@@ -14,7 +14,7 @@
  * License: MIT
  */
 
-//@require loading-bar.css
+//@require angular-loading-bar.css
 
 (function() {
 
