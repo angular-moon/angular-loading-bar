@@ -4,11 +4,12 @@
     "name": "angular-loading-bar",
     "main": "angular-loading-bar.js",
     "dependencies": [
-        "angular"
+        "angular",
+        "css"
     ],
     "shim": {
         "angular-loading-bar.js": {
-            "deps": ["angular"],
+            "deps": ["angular", "css!angular-loading-bar.css"],
             "exports": "'loading-bar'"
         }
     }
